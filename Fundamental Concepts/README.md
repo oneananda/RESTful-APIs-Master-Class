@@ -43,3 +43,17 @@ Welcome to the **Fundamental Concepts** section of the RESTful APIs Master Class
 - **Flexibility vs. Complexity:** While powerful, this principle is less commonly used due to security and complexity considerations.
 
 ---
+
+## HTTP Methods and Their Usage
+
+RESTful APIs typically use standard HTTP methods to perform CRUD operations:
+
+- **GET:** Retrieve a resource or list of resources.
+- **POST:** Create a new resource.
+- **PUT:** Update an existing resource entirely.
+- **PATCH:** Partially update an existing resource.
+- **DELETE:** Remove a resource.
+
+Each method plays a specific role in the API's operations, ensuring clear semantics and behavior.
+
+---

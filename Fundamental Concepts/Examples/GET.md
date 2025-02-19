@@ -1,3 +1,4 @@
+
 ---
 
 ### GET: Retrieve a Resource or List of Resources
@@ -18,5 +19,3 @@ curl -X GET "https://api.example.com/users" -H "Accept: application/json"
 ```
 
 ---
-
-

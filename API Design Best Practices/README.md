@@ -14,3 +14,17 @@ Welcome to the **API Design Best Practices** section of the RESTful APIs Master 
 
 - **URI Structure:**  
   Organize URIs hierarchically to reflect resource relationships. For example:
+
+---
+
+## 2. Use Standard HTTP Methods
+
+Stick to the conventional HTTP methods to make your API intuitive:
+
+- **GET:** Retrieve data.
+- **POST:** Create new resources.
+- **PUT:** Update existing resources completely.
+- **PATCH:** Partially update resources.
+- **DELETE:** Remove resources.
+
+---

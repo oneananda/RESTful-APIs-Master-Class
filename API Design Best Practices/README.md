@@ -41,3 +41,18 @@ Alternatively, consider using custom headers to manage versions, which keeps the
 Plan for future changes by ensuring older versions remain functional or by establishing clear deprecation policies.
 
 ---
+
+## 4. Clear and Meaningful Responses
+
+- **HTTP Status Codes:**  
+Use the appropriate status codes to indicate the outcome of an API request:
+- `200 OK`: Successful GET/PUT/PATCH requests.
+- `201 Created`: Successful resource creation.
+- `400 Bad Request`: Malformed request.
+- `404 Not Found`: Resource does not exist.
+- `500 Internal Server Error`: Server-side error.
+
+- **Error Handling:**  
+Provide detailed, consistent error responses that include helpful messages and error codes to assist in debugging.
+
+---

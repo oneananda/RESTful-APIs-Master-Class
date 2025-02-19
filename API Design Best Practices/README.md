@@ -4,3 +4,13 @@ Welcome to the **API Design Best Practices** section of the RESTful APIs Master 
 
 ---
 
+## 1. Consistent Naming Conventions
+
+- **Resource Naming:**  
+  Use clear, descriptive names for your resources. Favor nouns over verbs (e.g., `/users` instead of `/getUsers`).
+
+- **Pluralization:**  
+  Use plural nouns for collections (e.g., `/users`, `/orders`) and singular for individual items when appropriate.
+
+- **URI Structure:**  
+  Organize URIs hierarchically to reflect resource relationships. For example:

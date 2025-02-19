@@ -69,3 +69,16 @@ Use tools like Swagger (OpenAPI) or Postman to generate interactive API document
 Include code examples in popular languages to help users understand how to interact with your API.
 
 ---
+
+## 6. Security and Authentication
+
+- **Secure Endpoints:**  
+Use HTTPS to encrypt data in transit and prevent interception.
+
+- **Authentication Methods:**  
+Implement standard authentication methods such as OAuth 2.0 or JWT to secure your API.
+
+- **Rate Limiting and Throttling:**  
+Protect your API from abuse by limiting the number of requests a client can make within a given time frame.
+
+---

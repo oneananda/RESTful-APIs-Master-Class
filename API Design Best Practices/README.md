@@ -56,3 +56,16 @@ Use the appropriate status codes to indicate the outcome of an API request:
 Provide detailed, consistent error responses that include helpful messages and error codes to assist in debugging.
 
 ---
+
+## 5. Comprehensive Documentation
+
+- **Self-Descriptive API:**  
+Design your API so that its structure and naming conventions are self-explanatory.
+
+- **Interactive Documentation:**  
+Use tools like Swagger (OpenAPI) or Postman to generate interactive API documentation.
+
+- **Code Samples:**  
+Include code examples in popular languages to help users understand how to interact with your API.
+
+---

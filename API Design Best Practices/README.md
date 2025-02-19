@@ -28,3 +28,16 @@ Stick to the conventional HTTP methods to make your API intuitive:
 - **DELETE:** Remove resources.
 
 ---
+
+## 3. Versioning Your API
+
+- **URI Versioning:**  
+Include a version number in your URI (e.g., `/v1/users`) to clearly communicate the API version.
+
+- **Header Versioning:**  
+Alternatively, consider using custom headers to manage versions, which keeps the URI clean.
+
+- **Backward Compatibility:**  
+Plan for future changes by ensuring older versions remain functional or by establishing clear deprecation policies.
+
+---

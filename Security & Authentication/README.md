@@ -26,3 +26,7 @@ Securing your API is paramount to ensuring that only authorized users can access
 - **Pros:** Offers granular permissions and supports multiple flows (e.g., Authorization Code, Implicit, Client Credentials).
 - **Cons:** Can be complex to implement and configure properly.
 
+### 4. Basic Authentication
+- **Usage:** Encodes username and password in HTTP headers.
+- **Pros:** Simple to implement.
+- **Cons:** Insecure over non-HTTPS connections and lacks advanced features.

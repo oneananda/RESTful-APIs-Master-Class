@@ -9,3 +9,9 @@ Securing your API is paramount to ensuring that only authorized users can access
 - **Comply with Standards:** Meet regulatory requirements and industry best practices.
 - **Enhance User Trust:** Demonstrate your commitment to security for your users and partners.
 
+## Common Authentication Methods
+
+### 1. API Keys
+- **Usage:** Often used for simple integrations or internal applications.
+- **Pros:** Easy to implement and manage.
+- **Cons:** Lacks granularity and may be vulnerable if keys are exposed.

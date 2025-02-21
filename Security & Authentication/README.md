@@ -20,3 +20,9 @@ Securing your API is paramount to ensuring that only authorized users can access
 - **Usage:** Utilizes JSON Web Tokens (JWT) to securely transmit claims between parties.
 - **Pros:** Stateless, scalable, and suitable for distributed systems.
 - **Cons:** Requires secure management of tokens and proper expiration handling.
+
+### 3. OAuth 2.0
+- **Usage:** Provides delegated authorization for third-party access without exposing user credentials.
+- **Pros:** Offers granular permissions and supports multiple flows (e.g., Authorization Code, Implicit, Client Credentials).
+- **Cons:** Can be complex to implement and configure properly.
+

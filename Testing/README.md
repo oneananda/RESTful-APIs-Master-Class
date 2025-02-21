@@ -26,4 +26,8 @@ Testing is a cornerstone of building robust and reliable RESTful APIs. This sect
 - **Tools:** Postman, Newman, or Cypress.
 - **Best Practices:** Automate tests to run on every deployment and simulate real-world scenarios.
 
+### 4. Performance Testing
+- **Purpose:** Assess API responsiveness, throughput, and stability under load.
+- **Tools:** JMeter, Locust, or k6.
+- **Best Practices:** Simulate realistic usage patterns and monitor key performance indicators like response time and error rate.
 

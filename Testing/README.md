@@ -36,3 +36,28 @@ Testing is a cornerstone of building robust and reliable RESTful APIs. This sect
 - **Postman & Newman:** For both manual and automated API testing.
 - **Swagger:** To document your API and enable automated testing with generated code.
 - **Continuous Integration (CI):** Tools such as Jenkins, GitHub Actions, or Travis CI to run your tests automatically on every code change.
+
+## Sample Test: Testing an Express API Endpoint with Mocha & Chai
+
+Below is an example of how to test a GET endpoint in an Express application using Mocha and Chai:
+
+```
+const chai = require('chai');
+const chaiHttp = require('chai-http');
+const app = require('../app'); // Import your Express app
+
+chai.use(chaiHttp);
+const { expect } = chai;
+
+describe('GET /api/users', () => {
+  it('should return a list of users', (done) => {
+    chai.request(app)
+      .get('/api/users')
+      .end((err, res) => {
+        expect(res).to.have.status(200);
+        expect(res.body).to.be.an('array');
+        done();
+      });
+  });
+});
+```

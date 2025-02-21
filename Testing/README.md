@@ -21,3 +21,9 @@ Testing is a cornerstone of building robust and reliable RESTful APIs. This sect
 - **Tools:** Supertest, Postman, or custom integration test suites.
 - **Best Practices:** Set up a dedicated testing environment that mirrors production to uncover integration issues early.
 
+### 3. End-to-End (E2E) Testing
+- **Purpose:** Validate complete user workflows from start to finish.
+- **Tools:** Postman, Newman, or Cypress.
+- **Best Practices:** Automate tests to run on every deployment and simulate real-world scenarios.
+
+

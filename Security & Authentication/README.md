@@ -15,3 +15,8 @@ Securing your API is paramount to ensuring that only authorized users can access
 - **Usage:** Often used for simple integrations or internal applications.
 - **Pros:** Easy to implement and manage.
 - **Cons:** Lacks granularity and may be vulnerable if keys are exposed.
+
+### 2. Token-Based Authentication (JWT)
+- **Usage:** Utilizes JSON Web Tokens (JWT) to securely transmit claims between parties.
+- **Pros:** Stateless, scalable, and suitable for distributed systems.
+- **Cons:** Requires secure management of tokens and proper expiration handling.

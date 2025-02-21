@@ -45,7 +45,7 @@ Securing your API is paramount to ensuring that only authorized users can access
 
 Below is a basic example of how to generate and validate JWT tokens using Node.js and Express:
 
-```javascript
+```
 const jwt = require('jsonwebtoken');
 const secretKey = process.env.JWT_SECRET || 'your-secret-key';
 
@@ -68,3 +68,24 @@ function authenticateToken(req, res, next) {
 }
 
 module.exports = { generateToken, authenticateToken };
+```
+
+
+## OAuth 2.0 Overview
+
+For scenarios requiring delegated access, OAuth 2.0 provides a robust framework. Here’s an overview of its common flows:
+
+- **Authorization Code Flow:** Ideal for server-side web applications.
+- **Implicit Flow:** Suitable for browser-based or mobile applications.
+- **Client Credentials Flow:** Best for server-to-server interactions.
+
+**Implementation Tips:**
+- Register your application with the OAuth provider.
+- Use well-maintained libraries to handle the OAuth flow.
+- Securely manage access tokens and implement token refresh mechanisms.
+
+## Additional Resources
+
+- [OWASP API Security Top 10](https://owasp.org/www-project-api-security/) – A comprehensive guide on API security risks.
+- [JWT.io](https://jwt.io) – Learn more about JSON Web Tokens.
+- [OAuth 2.0 Simplified](https://aaronparecki.com/oauth-2-simplified/) – An easy-to-understand guide to OAuth 2.0.

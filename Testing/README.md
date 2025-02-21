@@ -31,3 +31,8 @@ Testing is a cornerstone of building robust and reliable RESTful APIs. This sect
 - **Tools:** JMeter, Locust, or k6.
 - **Best Practices:** Simulate realistic usage patterns and monitor key performance indicators like response time and error rate.
 
+## Essential Testing Tools & Frameworks
+
+- **Postman & Newman:** For both manual and automated API testing.
+- **Swagger:** To document your API and enable automated testing with generated code.
+- **Continuous Integration (CI):** Tools such as Jenkins, GitHub Actions, or Travis CI to run your tests automatically on every code change.

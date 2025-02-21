@@ -40,3 +40,31 @@ Securing your API is paramount to ensuring that only authorized users can access
 - **Error Handling:** Avoid exposing internal logic or sensitive information in error messages.
 - **Logging & Monitoring:** Track access and authentication attempts to identify and respond to potential breaches.
 - **Regular Audits:** Periodically review and update security policies and codebases.
+
+## Example: Implementing JWT in Node.js
+
+Below is a basic example of how to generate and validate JWT tokens using Node.js and Express:
+
+```javascript
+const jwt = require('jsonwebtoken');
+const secretKey = process.env.JWT_SECRET || 'your-secret-key';
+
+// Generate a token for an authenticated user
+function generateToken(user) {
+  return jwt.sign({ id: user.id, email: user.email }, secretKey, { expiresIn: '1h' });
+}
+
+// Middleware to authenticate and validate the token
+function authenticateToken(req, res, next) {
+  const authHeader = req.headers['authorization'];
+  const token = authHeader && authHeader.split(' ')[1];
+  if (!token) return res.sendStatus(401); // Unauthorized
+
+  jwt.verify(token, secretKey, (err, user) => {
+    if (err) return res.sendStatus(403); // Forbidden
+    req.user = user;
+    next();
+  });
+}
+
+module.exports = { generateToken, authenticateToken };

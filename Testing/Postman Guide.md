@@ -33,3 +33,8 @@ This guide covers how to use **Postman** for testing and interacting with RESTfu
    });
    ```
 3. Click **Send** to execute.
+
+## Environments & Variables
+- Create an **Environment** (e.g., `Development`, `Staging`, `Production`).
+- Define variables like `{{baseUrl}}` and use them dynamically in API requests.
+- Set global, environment, or collection-level variables.

@@ -23,3 +23,13 @@ This guide covers how to use **Postman** for testing and interacting with RESTfu
 - **API Key:** Add in the **Headers** or as a **Query Parameter**.
 - **Bearer Token:** Go to the **Authorization** tab → Select **Bearer Token**.
 - **Basic Auth:** Enter **username/password** in the **Authorization** tab.
+
+## Running Tests
+1. Go to the **Tests** tab.
+2. Add JavaScript snippets for automated testing.
+   ```javascript
+   pm.test("Status code is 200", function () {
+       pm.response.to.have.status(200);
+   });
+   ```
+3. Click **Send** to execute.

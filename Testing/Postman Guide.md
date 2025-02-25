@@ -50,3 +50,12 @@ This guide covers how to use **Postman** for testing and interacting with RESTfu
    ```sh
    newman run <collection-file.json>
    ```
+
+   
+## Documentation & Sharing
+- Generate API documentation via **Postman** and share a public link.
+- Export collections and environments for collaboration.
+
+## Additional Resources
+- [Postman Learning Center](https://learning.postman.com/)
+- [Newman CLI Docs](https://www.npmjs.com/package/newman)

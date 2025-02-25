@@ -18,3 +18,8 @@ This guide covers how to use **Postman** for testing and interacting with RESTfu
 1. Click **New Collection** → Name it appropriately.
 2. Add multiple API requests within the collection.
 3. Save and organize requests efficiently.
+
+## Authentication
+- **API Key:** Add in the **Headers** or as a **Query Parameter**.
+- **Bearer Token:** Go to the **Authorization** tab → Select **Bearer Token**.
+- **Basic Auth:** Enter **username/password** in the **Authorization** tab.

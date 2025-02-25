@@ -38,3 +38,15 @@ This guide covers how to use **Postman** for testing and interacting with RESTfu
 - Create an **Environment** (e.g., `Development`, `Staging`, `Production`).
 - Define variables like `{{baseUrl}}` and use them dynamically in API requests.
 - Set global, environment, or collection-level variables.
+
+
+## Running Collections via Newman
+1. Install **Newman** (CLI tool for Postman).
+   ```sh
+   npm install -g newman
+   ```
+2. Export collection from Postman.
+3. Run it in the terminal:
+   ```sh
+   newman run <collection-file.json>
+   ```

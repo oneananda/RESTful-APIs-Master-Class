@@ -1,0 +1,15 @@
+# RESTful APIs Master Class - Postman Guide
+
+## Overview
+This guide covers how to use **Postman** for testing and interacting with RESTful APIs.
+
+## Installation
+1. Download **Postman** from [Postman’s official website](https://www.postman.com/downloads/).
+2. Install and launch the application.
+
+## Creating a Request
+1. Open **Postman** and click **New Request**.
+2. Select the HTTP method (**GET, POST, PUT, DELETE**).
+3. Enter the API URL in the request field.
+4. Add necessary headers (e.g., `Content-Type: application/json`).
+5. For **POST/PUT**, enter request **Body** in JSON format.
